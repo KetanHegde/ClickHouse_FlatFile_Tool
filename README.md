@@ -62,7 +62,7 @@ cd backend
 npm install
 ```
 
-#### ➕ Create \`.env\` file in \`/backend\`
+#### ➕ Create `.env` file in `/backend`
 
 ```env
 PORT=5000
@@ -74,7 +74,7 @@ PORT=5000
 npm start
 ```
 
-The backend will be available at \`http://localhost:5000\`.
+The backend will be available at `http://localhost:5000`.
 
 ---
 
@@ -85,7 +85,7 @@ cd ../frontend
 npm install
 ```
 
-#### ➕ Create \`.env.local\` in \`/frontend\`
+#### ➕ Create `.env.local` in `/frontend`
 
 ```env
 NEXT_PUBLIC_API_BASE=http://localhost:5000
@@ -97,7 +97,7 @@ NEXT_PUBLIC_API_BASE=http://localhost:5000
 npm run dev
 ```
 
-The frontend will be available at \`http://localhost:3000\`.
+The frontend will be available at `http://localhost:3000`.
 
 ---
 
@@ -120,7 +120,7 @@ The frontend will be available at \`http://localhost:3000\`.
 - CSV ingestion creates ClickHouse tables based on the file header.
 - Joined query exports auto-rename conflicting columns.
 - CSV export is streamed for efficiency with large datasets.
-- Adjust file size/upload limits in \`multer\` middleware.
+- Adjust file size/upload limits in `multer` middleware.
 
 ---
 
