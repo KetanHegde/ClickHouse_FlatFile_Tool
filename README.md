@@ -15,12 +15,12 @@ A web-based tool to support seamless two-way data ingestion between ClickHouse a
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 project-root/
 ├── frontend/ # Next.js frontend
 ├── backend/ # Express.js backend
 └── README.md
-\`\`\`
+```
 
 ---
 
@@ -36,20 +36,20 @@ project-root/
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/KetanHegde/ClickHouse_FlatFile_Tool.git
 cd clickhouse-ingestion-tool
-\`\`\`
+```
 
 ---
 
 ### 2. Start ClickHouse via Docker
 
-\`\`\`bash
+```bash
 docker run -d --name clickhouse-server \
  -p 8123:8123 -p 9000:9000 \
  clickhouse/clickhouse-server
-\`\`\`
+```
 
 > Or use Docker Compose if you prefer a multi-service setup.
 
@@ -57,22 +57,22 @@ docker run -d --name clickhouse-server \
 
 ### 3. Backend Setup
 
-\`\`\`bash
+```bash
 cd backend
 npm install
-\`\`\`
+```
 
 #### ➕ Create \`.env\` file in \`/backend\`
 
-\`\`\`env
+```env
 PORT=5000
-\`\`\`
+```
 
 #### ▶️ Run Backend
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 The backend will be available at \`http://localhost:5000\`.
 
@@ -80,22 +80,22 @@ The backend will be available at \`http://localhost:5000\`.
 
 ### 4. Frontend Setup
 
-\`\`\`bash
+```bash
 cd ../frontend
 npm install
-\`\`\`
+```
 
 #### ➕ Create \`.env.local\` in \`/frontend\`
 
-\`\`\`env
+```env
 NEXT_PUBLIC_API_BASE=http://localhost:5000
-\`\`\`
+```
 
 #### ▶️ Run Frontend
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The frontend will be available at \`http://localhost:3000\`.
 
