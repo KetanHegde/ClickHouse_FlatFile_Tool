@@ -85,7 +85,7 @@ cd ../frontend
 npm install
 ```
 
-#### ➕ Create `.env.local` in `/frontend`
+#### ➕ Create `.env` in `/frontend`
 
 ```env
 NEXT_PUBLIC_API_BASE=http://localhost:5000
