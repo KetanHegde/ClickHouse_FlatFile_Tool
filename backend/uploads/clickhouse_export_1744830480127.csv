@@ -1,0 +1,4 @@
+Employee_id,Employee_name,Employee_email,Student_id,Student_name,Student_email
+1,Alice,alice@example.com,1,Alice,alice@example.com
+2,Bob,bob@example.com,2,Bob,bob@example.com
+3,Charlie,charlie@example.com,3,Charlie,charlie@example.com
