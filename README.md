@@ -38,7 +38,7 @@ project-root/
 
 ```bash
 git clone https://github.com/KetanHegde/ClickHouse_FlatFile_Tool.git
-cd clickhouse-ingestion-tool
+cd ClickHouse_FlatFile_Tool
 ```
 
 ---
